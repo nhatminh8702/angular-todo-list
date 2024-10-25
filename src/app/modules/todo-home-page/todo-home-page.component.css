@@ -1,0 +1,43 @@
+.table {
+  background-color: #303030;
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+th,
+td {
+  padding: 1rem 1.4rem;
+}
+
+thead,
+tbody,
+tfoot,
+tr,
+td,
+th {
+  border-color: inherit;
+  border-style: solid;
+  border-width: 0;
+  border-bottom-width: 1px;
+}
+
+.btn {
+  border-radius: 0.25rem;
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  border: 0;
+  text-transform: uppercase;
+  vertical-align: bottom;
+  margin: 4px;
+  color: #fff;
+  background-color: #14a44d;
+}
+.btn:hover {
+  cursor: pointer;
+}
+
+.btn-danger {
+  background-color: #dc4c64;
+}
